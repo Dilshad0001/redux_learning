@@ -13,9 +13,7 @@ const ProductSlice=createSlice({
     reducers:{
         addNewProduct:(state,action)=>{
             state.produ=[...state.produ,action.payload]
-            // console.log("===",state.produ);
-            
-            
+            // console.log("===",state.produ);     
         }
         
     }
