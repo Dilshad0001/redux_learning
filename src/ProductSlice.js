@@ -15,6 +15,7 @@ const ProductSlice=createSlice({
             state.produ=[...state.produ,action.payload]
             // console.log("===",state.produ);
             
+            
         }
         
     }
